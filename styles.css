@@ -18,6 +18,7 @@
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
+html { overscroll-behavior: none; }
 body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
@@ -377,7 +378,8 @@ a:hover{ text-decoration: underline; }
 /* Footer */
 .footer{
   margin: 34px 0 40px;
-  padding-top: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-top: 1px solid rgba(255,255,255,.08);
 }
 .footer-inner{
